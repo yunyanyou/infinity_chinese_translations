@@ -234,4 +234,7 @@
     <string name="work_challenge_emergency_button_text">紧急呼救</string>
     <string name="user_settings_title">用户</string>
     <string name="user_category_title">用户</string>
+
+    <string name="personal_context_title">个人情境管理器</string>
+    <string name="platform_compat_target_sdk_title">适用于 targetSdkVersion ≥ %d 的应用</string>
 </resources>
