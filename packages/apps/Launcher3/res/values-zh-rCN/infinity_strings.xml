@@ -13,7 +13,7 @@
     <string name="misc_category_summary">其他选项</string>
     <string name="general_category_title">常规</string>
     <string name="interface_category_title">界面</string>
-    <string name="quickspace_category_title">桌面快捷信息 (Quickspace)</string>
+    <string name="quickspace_category_title">Quickspace</string>
     <string name="search_bar_category_title">搜索栏</string>
     <string name="actions_category_title">快捷操作</string>
     <string name="dev_options_title">开发者选项</string>
@@ -81,7 +81,7 @@
     <string name="recent_task_option_kill_app">结束应用</string>
     <string name="recents_app_killed">应用已结束</string>
     <string name="label_search">搜索</string>
-    <string name="label_lens">Google 智能镜头</string>
+    <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">语音搜索</string>
     <string name="label_gemini_search">AI 模式</string>
     <string name="dock_music_search_title">音乐搜索</string>
@@ -111,7 +111,7 @@
     <string name="recents_meminfo_title">内存信息</string>
     <string name="recents_screenshot_title">截屏</string>
     <string name="recents_clear_all_title">全部清除</string>
-    <string name="recents_lens_title">智能镜头</string>
+    <string name="recents_lens_title">Lens</string>
     <string name="short_parallax_title">启用短页面视差</string>
     <string name="short_parallax_summary">页面较少时也完整滚动壁纸，而不是裁剪壁纸</string>
     <string name="single_page_center_title">单页居中</string>
@@ -316,4 +316,17 @@
     <string name="navbar_burn_in_protection_title">导航栏防烧屏</string>
     <string name="navbar_burn_in_protection_summary">定期移动导航手势条，防止屏幕烧屏</string>
     <string name="navbar_burn_in_interval_title">移动间隔</string>
+    <string name="overview_gesture_title">最近任务上滑手势</string>
+    <string name="overview_gesture_summary">在最近任务中向上滑动应用以触发指定操作</string>
+    <string name="overview_gesture_action_title">上滑触发操作</string>
+    <string name="overview_gesture_action_freeform">在小窗中打开</string>
+    <string name="overview_gesture_action_split_screen">开启分屏</string>
+    <string name="overview_gesture_threshold_title">滑动触发距离</string>
+    <string name="overview_gesture_threshold_summary">较小值触发更快，较大值需要更长的滑动距离</string>
+    <string name="freeform_gesture_threshold_reached">松开以启动小窗</string>
+    <string name="rename_app_label">重命名应用</string>
+    <string name="rename_app_reset">重置</string>
+    <string name="app_info_custom_icon_title">自定义图标</string>
+    <string name="app_info_custom_icon_summary">从已安装的图标包中选取图标</string>
+    <string name="icon_picker_search_hint">搜索图标</string>
 </resources>

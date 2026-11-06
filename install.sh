@@ -7,7 +7,7 @@ STATE_DIR="${TMPDIR:-/tmp}/infinity_chinese_translations"
 MANIFEST="$STATE_DIR/installed_files"
 BACKUP_DIR="$STATE_DIR/backup"
 
-if [ ! -d "$ROM_ROOT/packages" ]; then
+if [ ! -d "$ROM_ROOT/packages" ] || [ ! -d "$ROM_ROOT/frameworks" ]; then
     echo "错误：请在 ROM 源码根目录下运行此脚本！"
     exit 1
 fi
@@ -44,5 +44,5 @@ while IFS= read -r src; do
     mkdir -p "$(dirname "$ROM_ROOT/$rel")"
     cp "$src" "$ROM_ROOT/$rel"
     echo "$rel" >> "$MANIFEST"
-done < <(find packages -type f | sort)
+done < <(find frameworks packages -type f | sort)
 echo "所有汉化文件已还原成功！"

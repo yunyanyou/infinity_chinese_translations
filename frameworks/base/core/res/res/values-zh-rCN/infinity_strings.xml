@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aerr_copy">复制崩溃日志链接</string>
+    <string name="url_copy_success">链接复制成功</string>
+    <string name="url_copy_failed">上传日志至 Pasty 失败</string>
+    <string name="pocket_mode_title">防误触模式已激活</string>
+    <string name="pocket_mode_illustration_description">手机在口袋中的图示</string>
+    <string name="pocket_mode_instructions_header">如何使用手机：</string>
+    <string name="pocket_mode_instruction_step1">1. 确保上方显示的蓝色区域（距离传感器）未被遮挡</string>
+    <string name="pocket_mode_instruction_step2">2. 长按电源键退出防误触模式</string>
+    <string name="volume_dialog_ringer_guidance_normal">通话和通知将正常响铃</string>
+    <string name="notification_channel_sleep">睡眠模式</string>
+</resources>

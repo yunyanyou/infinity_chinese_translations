@@ -1,146 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2023 The LineageOS Project
-     Licensed under the Apache License, Version 2.0
+/**
+ * Copyright (c) 2015, The CyanogenMod Project
+ * Copyright (c) 2017-2021 The LineageOS Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- 高级键盘设置 -->
-    <string name="keyboard_extras_title">附加选项</string>
-    <string name="advanced_keyboard_settings_title">高级设置</string>
-
-    <!-- Root 调试 -->
-    <string name="adb_enable_root">Root 身份调试</string>
-    <string name="adb_enable_summary_root">允许以 root 权限运行 Android 调试</string>
-
-    <!-- 备份提供商 -->
-    <string name="backup_transport_setting_label">更改备份服务商</string>
-    <string name="backup_transport_title">选择备份服务商</string>
-
-    <!-- 纯黑深色主题 -->
-    <string name="berry_black_theme_title">纯黑主题</string>
-    <string name="berry_black_theme_summary">深色主题下使用纯黑背景</string>
-
-    <!-- 开发者选项连击倒计时 -->
-    <string name="show_dev_countdown_cm">{count, plural,
-      =1      {只需再按 # 步即可开启开发者设置。}
-      other   {只需再按 # 步即可开启开发者设置。}
-    }</string>
-    <string name="show_dev_on_cm">您已处于开发者模式！</string>
-    <string name="show_dev_already_cm">无需操作，您已开启开发者设置。</string>
-
-    <!-- 双击休眠 -->
-    <string name="status_bar_double_tap_to_sleep_title">双击休眠</string>
-    <string name="status_bar_double_tap_to_sleep_summary">双击状态栏或锁屏空白处关闭屏幕</string>
-
-    <!-- 触控采样率 -->
-    <string name="high_touch_polling_rate_title">高触控报点率</string>
-    <string name="high_touch_polling_rate_summary">提高触摸屏采样率以降低输入延迟</string>
-
-    <!-- 浮动通知 (Heads-up) -->
-    <string name="heads_up_notifications_enabled_title">浮动通知</string>
-    <string name="heads_up_notifications_enabled_summary">在屏幕顶部浮窗展示高优先级通知</string>
-
-    <!-- 手套模式 / 高灵敏度触控 -->
-    <string name="high_touch_sensitivity_title">高触控灵敏度</string>
-    <string name="high_touch_sensitivity_summary">提升触控灵敏度，方便在佩戴手套时操作屏幕</string>
-
-    <!-- 热点代理 / VPN 共享 -->
-    <string name="tethering_allow_vpn_upstreams_title">允许热点客户端使用 VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">本设备启用 VPN 时，所有连接热点的设备均自动使用该 VPN 网络</string>
-
-    <!-- 锁屏图案设置 -->
-    <string name="lock_settings_picker_pattern_size_message">选择图案大小</string>
-    <string name="lockpattern_settings_enable_error_path_title">显示错误图案轨迹</string>
-    <string name="lockpattern_settings_enable_dots_title">显示图案触点</string>
-
-    <!-- 指纹录入提示语 -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">请找到平板正面的指纹传感器。</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">请找到设备正面的指纹传感器。</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">请找到手机正面的指纹传感器。</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">请找到平板背面的指纹传感器。</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">请找到设备背面的指纹传感器。</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">请找到手机背面的指纹传感器。</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">请找到平板侧面的指纹传感器。</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">请找到设备侧面的指纹传感器。</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">请找到手机侧面的指纹传感器。</string>
-
-    <!-- 触摸指纹图标引导 -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">触摸平板正面的指纹传感器。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">触摸设备正面的指纹传感器。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">触摸手机正面的指纹传感器。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">触摸平板背面的指纹传感器。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">触摸设备背面的指纹传感器。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">触摸手机背面的指纹传感器。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">触摸平板侧面的指纹传感器。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">触摸设备侧面的指纹传感器。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">触摸手机侧面的指纹传感器。</string>
-
-    <!-- 导航栏 / 手势提示线 -->
-    <string name="show_navbar_hint_title">手势提示线</string>
-    <string name="show_navbar_hint_summary">在屏幕底部显示全面屏手势横条</string>
-
-    <!-- 单次自动亮度 -->
-    <string name="auto_brightness_one_shot_title">单次自动亮度</string>
-    <string name="auto_brightness_one_shot_summary">仅在亮屏瞬间调节一次屏幕亮度</string>
-
-    <!-- 应用独立联网控制 -->
-    <string name="data_usage_app_restrict_all">允许网络连接</string>
-    <string name="data_usage_app_restrict_all_summary">开启应用的网络连接权限</string>
-    <string name="data_usage_app_restrict_mobile">移动数据</string>
-    <string name="data_usage_app_restrict_mobile_summary">允许使用蜂窝移动网络</string>
-    <string name="data_usage_app_restrict_vpn">VPN 数据</string>
-    <string name="data_usage_app_restrict_vpn_summary">允许使用 VPN 网络</string>
-    <string name="data_usage_app_restrict_wifi">WLAN 数据</string>
-    <string name="data_usage_app_restrict_wifi_summary">允许使用 WLAN 网络</string>
-
-    <!-- 乱序 PIN 键盘 -->
-    <string name="unlock_scramble_pin_layout_title">乱序数字键盘</string>
-    <string name="unlock_scramble_pin_layout_summary">解锁设备时随机打乱 PIN 码键盘布局以防止窥视</string>
-
-    <!-- 防误触唤醒 -->
-    <string name="proximity_wake_title">防误触唤醒</string>
-    <string name="proximity_wake_summary">唤醒屏幕前先检测距离传感器以防止意外亮屏</string>
-
-    <!-- 悬浮触控 (空气悬停) -->
-    <string name="touchscreen_hovering_title">悬浮触控</string>
-    <string name="touchscreen_hovering_summary">手指悬停于屏幕上方时模拟鼠标指针移动</string>
-
-    <!-- 插拔充电唤醒 -->
-    <string name="wake_when_plugged_or_unplugged_title">插拔充电唤醒</string>
-    <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源充电器时点亮屏幕</string>
-
-    <!-- 存储警告 -->
-    <string name="storage_warning_internal">警告：此选项可能无法正常工作或导致数据丢失，不建议启用！</string>
-
-    <!-- 辅助 GPS -->
-    <string name="assisted_gps">使用辅助 GPS (A-GPS)</string>
-    <string name="assisted_gps_summary">通过网络下载卫星星历辅助数据以加快 GPS 冷启动搜星定位。紧急呼叫时始终允许使用。</string>
-
-    <!-- 电池信息: 类型 -->
-    <string name="battery_technology">电池类型</string>
-
-    <!-- 电池信息: 健康度 -->
-    <string name="battery_health">健康状态</string>
-    <string name="battery_health_good">良好</string>
-    <string name="battery_health_overheat">过热</string>
-    <string name="battery_health_dead">损坏</string>
-    <string name="battery_health_over_voltage">电压过高</string>
-    <string name="battery_health_unspecified_failure">未知故障</string>
-    <string name="battery_health_cold">温度过低</string>
-    <string name="battery_health_unknown">未知</string>
-
-    <!-- 电池信息: 温度 / 电压 / 电量 -->
-    <string name="battery_temperature">电池温度</string>
-    <string name="battery_voltage">电池电压</string>
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
-
-    <!-- 电池容量信息 -->
-    <string name="battery_design_capacity">设计容量</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_maximum_capacity">最大有效容量</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-
-    <!-- 剪贴板通用 -->
-    <string name="copied_to_clipboard">已复制到剪贴板</string>
-    <string name="longpress_to_clipboard">长按以复制</string>
+    <string name="global_action_restart_more">重新启动\u2026</string>
+    <string name="global_action_restart_system">系统</string>
+    <string name="global_action_restart_recovery">恢复模式</string>
+    <string name="global_action_restart_bootloader">引导程序</string>
+    <string name="global_action_restart_download">下载</string>
+    <string name="global_action_restart_fastboot">Fastbootd</string>
+    <string name="global_action_restart_progress">正在重启\u2026</string>
+    <string name="global_action_restart_recovery_progress">重新启动到恢复模式\u2026</string>
+    <string name="global_action_restart_bootloader_progress">重新启动到引导模式\u2026</string>
+    <string name="global_action_restart_download_progress">重新启动到下载模式\u2026</string>
+    <string name="global_action_restart_fastboot_progress">正在重启到 fastbootd 模式\u2026</string>
+    <string name="global_action_current_user">当前</string>
+    <string name="global_action_users">用户</string>
+    <string name="clock">时钟</string>
+    <string name="accessibility_adaptive_brightness">自适应亮度</string>
+    <string name="status_bar_icons_title">状态栏图标</string>
+    <string name="quick_settings_ambient_display_label">息屏显示</string>
+    <string name="accessibility_quick_settings_ambient_display_off">关闭主动显示。</string>
+    <string name="accessibility_quick_settings_ambient_display_on">开启主动显示。</string>
+    <string name="quick_settings_aod_label">息屏常亮</string>
+    <string name="quick_settings_aod_off_powersave_label">息屏显示关闭\n省电模式</string>
+    <string name="quick_settings_caffeine_label">保持亮屏</string>
+    <string name="accessibility_quick_settings_caffeine_off">保持亮屏关闭。</string>
+    <string name="accessibility_quick_settings_caffeine_on">保持亮屏开启。</string>
+    <string name="quick_settings_heads_up_label">浮动通知</string>
+    <string name="accessibility_quick_settings_heads_up_off">浮动通知关。</string>
+    <string name="accessibility_quick_settings_heads_up_on">浮动通知开。</string>
+    <string name="quick_settings_powershare_label">无线反充</string>
+    <string name="quick_settings_powershare_off_powersave_label">无线反充已关闭\n省电模式</string>
+    <string name="quick_settings_powershare_off_low_battery_label">无线反充已关闭\n电量过低</string>
+    <string name="quick_settings_powershare_enabled_label">无线反充已启用</string>
+    <string name="quick_settings_reading_mode">阅读模式</string>
+    <string name="accessibility_quick_settings_reading_mode_on">开启阅读模式。</string>
+    <string name="accessibility_quick_settings_reading_mode_off">关闭阅读模式。</string>
+    <string name="quick_settings_sync_label">同步</string>
+    <string name="accessibility_quick_settings_sync_off">同步关闭。</string>
+    <string name="accessibility_quick_settings_sync_on">同步开启。</string>
+    <string name="quick_settings_profiles_label">情景模式</string>
+    <string name="accessibility_quick_settings_profiles_off">情景模式关闭。</string>
+    <string name="accessibility_quick_settings_profiles">情景模式：<xliff:g id="profile" example="Default">%s</xliff:g>。</string>
+    <string name="quick_settings_usb_tether_label">USB 共享网络</string>
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">连接到\u2026</string>
+    <string name="vpn_credentials_hint">请输入您连接 <xliff:g id="name">%s</xliff:g> 的凭据</string>
+    <string name="vpn_credentials_username">用户名</string>
+    <string name="vpn_credentials_password">密码</string>
+    <string name="vpn_credentials_dialog_connect">连接</string>
+    <string name="status_bar_firewall">防火墙</string>
+    <string name="battery_notification_channel_tv">电量警告</string>
+    <string name="screenshot_delete_label">删除</string>
+    <string name="screenshot_delete_description">删除屏幕截图</string>
+    <string name="screenrecord_lowquality_label">低画质</string>
+    <string name="screenrecord_lowquality_summary">以压缩文件体积</string>
+    <string name="screenrecord_longer_timeout_switch_label">更大的文件体积限制</string>
+    <string name="screenrecord_longer_timeout_switch_summary">限制录屏文件体积上限为15GB</string>
+    <string name="screenrecord_skip_time_label">跳过倒计时</string>
+    <string name="screenrecord_skip_time_summary">关闭3秒倒计时</string>
+    <string name="screenrecord_hevc_switch_label">HEVC编码</string>
+    <string name="screenrecord_hevc_switch_summary">使用效率更高的HEVC编码器</string>
+    <string name="quick_settings_infinity_memoryboost_label">内存加速</string>
+    <string name="quick_settings_infinity_memoryboost_toast">已释放 %1$d MB 运行内存</string>
+    <string name="quick_settings_infinity_memoryboost_no_ram">当前无需释放运行内存</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camera">相机</string>
+    <string name="clock_timer">时钟/计时器</string>
+    <string name="calculator">计算器</string>
+    <string name="gallery">相册</string>
+    <string name="no_default_app_found">未找到默认的 %1$s 应用</string>
+    <string name="weather_data_unavailable">数据不可用</string>
+    <string name="quick_settings_data_label">移动数据</string>
+    <string name="quick_settings_ringer_label">响铃模式</string>
+    <string name="torch_active">手电筒已开启</string>
+    <string name="google_wallet">Google 钱包</string>
+</resources>
